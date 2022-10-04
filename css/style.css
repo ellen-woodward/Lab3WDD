@@ -53,11 +53,12 @@ article {
 .club { 
     width:18rem; 
     vertical-align:top; 
+    box-sizing: border-box;
   } 
 
 article p {
      text-align: justify;
-     padding-right: 3.1rem;
+     padding-right: 1.5rem;
   }
 
 article:hover {
@@ -74,7 +75,7 @@ article:hover button {
       background-color: blue;
     }
     .club{
-        width:100%;
+        width:50%;
     }
   }
 
@@ -83,7 +84,7 @@ article:hover button {
       background-color: red;
     }
     .club{
-        width:45%;
+        width:33.5%;
     }
   }
 
@@ -92,7 +93,7 @@ article:hover button {
       background-color: green;
     }
     .club{
-        width:27%;
+        width:26%;
     }
   }
 
