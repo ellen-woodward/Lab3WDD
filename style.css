@@ -1,0 +1,104 @@
+ul { 
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+    background-color: #333; 
+    } 
+
+li { 
+    float: left; 
+    } 
+    
+li a { 
+    display: block; 
+    color: white;  
+    text-align: center; 
+    padding: 0.88rem 1rem;  
+    text-decoration: none; 
+    } 
+    
+li a:hover {  
+    background-color: #111; 
+    } 
+
+html, body { 
+    width: 960px; 
+    margin: 0 auto; 
+    padding: 0;
+    font-size: 100%; 
+    } 
+
+#full {
+    font-size: small;
+    color: red;
+} 
+
+article h1 { 
+    padding:0.31rem;   
+    border-left:0.31rem solid #333;      
+    } 
+
+.club_img {
+    float: left;
+    padding-right: 3.1rem;
+    padding-bottom: 0.63rem;
+} 
+
+article { 
+    padding:0.31rem; 
+    display:inline-block; 
+  } 
+  
+.club { 
+    width:18rem; 
+    vertical-align:top; 
+  } 
+
+article p {
+     text-align: justify;
+     padding-right: 3.1rem;
+  }
+
+article:hover {
+    background-color: grey;
+  }
+
+article:hover button {
+    background-color: yellow;
+  }
+
+
+@media only screen and (min-width: 320px) {
+    body {
+      background-color: blue;
+    }
+    .club{
+        width:100%;
+    }
+  }
+
+@media only screen and (min-width: 576px) {
+    body {
+      background-color: red;
+    }
+    .club{
+        width:45%;
+    }
+  }
+
+@media only screen and (min-width: 768px) {
+    body {
+      background-color: green;
+    }
+    .club{
+        width:27%;
+    }
+  }
+
+@media only screen and (min-width: 968px) {
+
+    body {
+      background-color: white;
+    }
+  }
