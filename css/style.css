@@ -77,6 +77,12 @@ article:hover button {
     .club{
         width:50%;
     }
+    h1{
+      font-size: 200%;
+    }
+    .club_img{
+      width: 100%;
+    }
   }
 
 @media only screen and (min-width: 576px) {
@@ -85,6 +91,12 @@ article:hover button {
     }
     .club{
         width:33.5%;
+    }
+    h1{
+      font-size: 175%;
+    }
+    .club_img{
+      width: 90%;
     }
   }
 
@@ -95,6 +107,12 @@ article:hover button {
     .club{
         width:26%;
     }
+    h1{
+      font-size: 150%;
+    }
+    .club_img{
+      width: 75%;
+    }
   }
 
 @media only screen and (min-width: 968px) {
@@ -103,3 +121,42 @@ article:hover button {
       background-color: white;
     }
   }
+
+#hamnav {
+  width: 100%;
+  background: #000;
+}
+
+#hamitems { display: flex; }
+#hamitems a {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+#hamitems a:hover { background: #af0d0d; }
+
+#hamnav label, #hamburger { display: none; }
+
+@media screen and (max-width: 768px){
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+  }
+ 
+  #hamnav label { 
+    display: inline-block; 
+    color: white;
+    background: #a02620;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  #hamitems { display: none; }
+  #hamnav input:checked ~ #hamitems { display: block; }
+}
